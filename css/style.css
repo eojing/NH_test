@@ -44,5 +44,5 @@
 .flex-font .notice{font-size: 3.6111vw;}
 .flex-font .info{font-size: 3.3333vw;}
 .flex-font .label{font-size: 2.7778vw;}
-.flex-font .font-test{display: flex; margin-bottom: 5.5556vw;}
+
 .flex-font .font-test:last-child{margin-bottom: 0;}
