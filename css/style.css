@@ -3,7 +3,7 @@
     font-weight: 400;
     padding-bottom: 50px;
     line-height: 1.2;
-    padding: 0 4.4444vw;
+    padding-left: 4.4444vw;
 }
 
 /* .fixed-font{
@@ -15,17 +15,14 @@
 
 .tag{
     display: inline-block;
-    max-width: 68px;
+    max-width: 18.8889vw;
     width: 100%;
     margin-right: 2.7778vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-.large{
-    font-weight: 400;
-    font-size: 26px;
-}
+
 .point1{font-size: 21px;}
 .point2{font-size: 19px;}
 .headline{font-size: 17px;}
@@ -39,7 +36,7 @@
 
 
 
-.flex-font .large{font-size: 7.2222vw;}
+.flex-font .large{font-size: 7.2222vw; font-weight: 400;}
 .flex-font .point1{font-size: 5.8333vw;}
 .flex-font .point2{font-size: 5.2778vw;}
 .flex-font .headline{font-size: 4.7222vw;}
@@ -48,5 +45,5 @@
 .flex-font .notice{font-size: 3.6111vw;}
 .flex-font .info{font-size: 3.3333vw;}
 .flex-font .label{font-size: 2.7778vw;}
-.flex-font .font-test{display: flex; margin-bottom: 20px;}
+.flex-font .font-test{display: flex; margin-bottom: 5.5556vw;}
 .flex-font .font-test:last-child{margin-bottom: 0;}
