@@ -1,12 +1,16 @@
 .wrap{
-    border: 1px solid #000;
-    max-width: 360px;
-    width: 100%;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     padding-bottom: 50px;
     line-height: 120%;
 }
+
+/* .fixed-font{
+    border: 1px solid #000;
+}
+.flex-font{
+    border: 1px solid #000;
+} */
 
 .tag{
     display: inline-block;
@@ -32,3 +36,17 @@
 .label{font-size: 10px;}
 .font-test{display: flex; margin-bottom: 20px;}
 .font-test:last-child{margin-bottom: 0;}
+
+
+
+.flex-font .large{font-size: 7.2222vw;}
+.flex-font .point1{font-size: 5.8333vw;}
+.flex-font .point2{font-size: 5.2778vw;}
+.flex-font .headline{font-size: 4.7222vw;}
+.flex-font .title{font-size: 4.4444vw;}
+.flex-font .body{font-size: 3.8889vw;}
+.flex-font .notice{font-size: 3.6111vw;}
+.flex-font .info{font-size: 3.3333vw;}
+.flex-font .label{font-size: 2.7778vw;}
+.flex-font .font-test{display: flex; margin-bottom: 20px;}
+.flex-font .font-test:last-child{margin-bottom: 0;}
