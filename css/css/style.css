@@ -1,0 +1,53 @@
+.wrap{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+    line-height: 1.2;
+    padding: 0 4.4444vw;
+}
+
+/* .fixed-font{
+    border: 1px solid #000;
+}
+.flex-font{
+    border: 1px solid #000;
+} */
+
+.tag{
+    display: inline-block;
+    max-width: 68px;
+    width: 100%;
+    margin-right: 2.7778vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.large{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+.point1{font-size: 21px;}
+.point2{font-size: 19px;}
+.headline{font-size: 17px;}
+.title{font-size: 16px;}
+.body{font-size: 14px;}
+.notice{font-size: 13px;}
+.info{font-size: 12px;}
+.label{font-size: 10px;}
+.font-test{display: flex; margin-bottom: 5.5556vw;}
+.font-test:last-child{margin-bottom: 0;}
+
+
+
+.flex-font .large{font-size: 7.2222vw;}
+.flex-font .point1{font-size: 5.8333vw;}
+.flex-font .point2{font-size: 5.2778vw;}
+.flex-font .headline{font-size: 4.7222vw;}
+.flex-font .title{font-size: 4.4444vw;}
+.flex-font .body{font-size: 3.8889vw;}
+.flex-font .notice{font-size: 3.6111vw;}
+.flex-font .info{font-size: 3.3333vw;}
+.flex-font .label{font-size: 2.7778vw;}
+.flex-font .font-test{display: flex; margin-bottom: 20px;}
+.flex-font .font-test:last-child{margin-bottom: 0;}
