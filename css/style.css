@@ -3,6 +3,7 @@
     font-weight: 400;
     padding-bottom: 50px;
     line-height: 1.2;
+    padding: 0 4.4444vw;
 }
 
 /* .fixed-font{
@@ -16,13 +17,12 @@
     display: inline-block;
     max-width: 68px;
     width: 100%;
-    margin-right: 10px;
+    margin-right: 2.7778vw;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .large{
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 26px;
 }
@@ -34,7 +34,7 @@
 .notice{font-size: 13px;}
 .info{font-size: 12px;}
 .label{font-size: 10px;}
-.font-test{display: flex; margin-bottom: 20px;}
+.font-test{display: flex; margin-bottom: 5.5556vw;}
 .font-test:last-child{margin-bottom: 0;}
 
 
