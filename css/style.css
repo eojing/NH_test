@@ -76,7 +76,7 @@ th:last-child, td:last-child{border-right: 0;}
 .md{font-weight: 600; color:#000;}
 .sec3{text-align: center;}
 .sec3 .sub_tit{font-size: 4.4444vw; margin-bottom: 5.5556vw;}
-.dang{position: relative; line-height: 4.7222vw; font-size: 3.3333vw; padding-left: 4.4444vw; margin-bottom: 2.7778vw;}
+.dang{position: relative; line-height: 4.7222vw; font-size: 3.3333vw; padding-left: 4.4444vw; margin-bottom: 2.7778vw; color: #666;}
 .dang::before{position: absolute; content: '※'; left: 0; top: 0;}
 .dang:last-child{margin-bottom: 0;}
 .lh{line-height: 4.7222vw;}
