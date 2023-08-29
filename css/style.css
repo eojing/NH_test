@@ -80,3 +80,21 @@ th:last-child, tbody tr:first-child td:last-child, tbody tr:last-child td:last-c
 .dang::before{position: absolute; content: '※'; left: 0; top: 0;}
 .dang:last-child{margin-bottom: 0;}
 .lh{line-height: 4.7222vw;}
+
+
+.tit{display: flex; justify-content: space-between; align-items: center; font-size: 3.8889vw; height: 13.3333vw; background-color: #f9f9f9; padding: 0 4.4444vw;}
+.tit .num{display: flex; font-size: 2.7778vw; align-items: center;}
+.tit .select{padding: 0.8333vw 1.9444vw; background-color: #84c13d; border-radius: 50%; color: #fff; font-family: 'Roboto', sans-serif; margin-right: 2.2222vw;}
+.tit .round{width: 1.3889vw; height: 1.3889vw; border-radius: 50%; background-color: #b3b3b3; margin-right: 2.2222vw;}
+.tit .round:last-child{margin-right: 0;}
+.cont2 .cont-area{padding: 0 4.4444vw;}
+.cont2 .cont-area h3{font-size: 5.5556vw; margin-top: 7.7778vw; margin-bottom: 9.4444vw; line-height: 8.0556vw;}
+.input_area{margin-bottom: 7.7778vw;}
+.input_area:last-child{margin-bottom: 0;}
+.input_tag{font-size: 3.3333vw; color: #666; margin-bottom: 2.5000vw;}
+input[type=submit]{border: none; background: none; }
+input[type=text]{display: block; width: 91.1111vw; font-size: 4.4444vw; border: none; border-bottom: 1px solid #e0e0e0; padding: 0; padding-bottom: 2.2222vw; outline: none; font-family: 'Noto Sans KR', sans-serif; font-weight: 400; margin-bottom: 7.7778vw;}
+form div{display: flex;}
+.dash_wrap{margin: 0 2.2222vw; width: 6.6667vw; position: relative;}
+.dash{display: block; height: 0.2778vw;  width: 2.2222vw; background-color: #999; position: absolute; top: 3.6111vw;}
+#first_num, #last_num{width: 42.2222vw;}
