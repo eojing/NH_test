@@ -66,7 +66,7 @@ p{font-size: 3.8889vw;}
 .sec2 .sub_tit{font-size: 4.4444vw; margin-bottom: 5.5556vw;}
 table{width: 100%;}
 td,th{border: 1px solid #e0e0e0;  vertical-align: middle; font-size: 3.8889vw;}
-th{height: 8.8889vw; border-top: 1px solid #adadad; background-color: #e7e7e7;}
+th{height: 8.8889vw; border-top: 1px solid #adadad; background-color: #f7f7f7;}
 td{height: 12.2222vw;}
 th:first-child, td:first-child{border-left: 0;}
 th:last-child, td:last-child{border-right: 0;}
