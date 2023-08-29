@@ -1,6 +1,5 @@
 * {-webkit-text-size-adjust:none;}
 body{
-    background-color: #ededf1;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     line-height: 1.2;
@@ -9,6 +8,7 @@ body{
 
 .wrap{
     padding: 0 1.8519vw 0 4.4444vw;
+    background-color: #ededf1;
 }
 
 /* .fixed-font{
