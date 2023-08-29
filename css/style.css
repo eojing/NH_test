@@ -66,7 +66,7 @@ p{font-size: 3.8889vw;}
 .sec2 .sub_tit{font-size: 4.4444vw; margin-bottom: 5.5556vw;}
 table{width: 100%; border-collapse: collapse;}
 td,th{color:#666;  vertical-align: middle; font-size: 3.8889vw; border-bottom: 1px solid #e0e0e0;}
-th{height: 8.8889vw; font-size: 3.3333vw; border-right: 1px groove #e0e0e0; border-top: 1px double #adadad; background-color: #f7f7f7;}
+th{height: 8.8889vw; font-size: 3.3333vw; border-right: 1px groove #e0e0e0; border-top: 1px solid #adadad; background-color: #f7f7f7;}
 td{height: 12.2222vw; border-right: 1px solid #e0e0e0;}
 /* th:first-child, td:first-child{border-left: 0;} */
 th:last-child, tbody tr:first-child td:last-child, tbody tr:last-child td:last-child{border-right: 0;}
