@@ -180,15 +180,23 @@
                         <p class="input_tag">이름</p>
                         <input class="name" type="text" id="name" placeholder="이름을 입력해주세요.">
                         <p class="input_tag">주민등록번호</p>
-                        <div class="num_wrap"><input type="text" id="first_num" placeholder="앞 6자리 숫자" maxlength="6">
+                        <div class="num_wrap"><input type="number" class="first_num" id="first_num" placeholder="앞 6자리 숫자" maxlength="6" oninput="maxLengthCheck(this)">
                             <div class="dash_wrap"><div class="dash"></div></div>
-                            <input type="text" id="last_num" placeholder="뒷 7자리 숫자" maxlength="7">
+                            <input type="number" class="last_num" id="last_num" placeholder="뒷 7자리 숫자" maxlength="7" oninput="maxLengthCheck(this)">
                         </div>
                         <p class="input_tag">휴대폰 번호</p>
-                        <input class="name" type="text" id="name" placeholder="이름을 입력해주세요.">
+                        <div class="phone_wrap">
+                            
+                            <select name="" id="" class="phone">
+                                <option selected class="first_option">통신사</option>
+                                <option value="skt">SKT</option>
+                                <option value="lg">LG U+</option>
+                                <option value="kt">KT</option>
+                            </select>
+                            <input class="phone_number" type="number" id="phone_number" placeholder="-없이 입력" maxlength="9" oninput="maxLengthCheck(this)">
+                            <input type="submit" value="인증요청">
+                        </div>
                         
-                        
-                        <input type="submit" value="">
                     </form>
                     
                     
@@ -197,6 +205,16 @@
 
             </div>
         </div>
- 
+        <script>
+            function maxLengthCheck(object){
+                if (object.value.length > object.maxLength){
+                object.value = object.value.slice(0, object.maxLength);
+                }    
+            }
+
+            document.querySelector('.phone').addEventListener('click',function(){
+                document.querySelector('.first_option').classList.add('hide');
+            })
+        </script>
 </body>
 </html>
