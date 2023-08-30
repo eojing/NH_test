@@ -116,3 +116,11 @@ select{    display: block;
 .hide{
     display: none;
 }
+
+select:hover{
+    border-bottom: 1px solid #000;
+}
+
+input[type=text]:hover, .last_num:hover, .phone_number:hover, .first_num:hover{
+    border-bottom : 1px solid #000;
+}
