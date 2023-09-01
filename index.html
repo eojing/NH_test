@@ -180,9 +180,9 @@
                         <p class="input_tag">이름</p>
                         <input class="name" type="text" id="name" placeholder="이름을 입력해주세요.">
                         <p class="input_tag">주민등록번호</p>
-                        <div class="num_wrap"><input type="number" class="first_num" id="first_num" placeholder="앞 6자리 숫자" maxlength="6" oninput="maxLengthCheck(this)">
+                        <div class="num_wrap"><input type="tel" class="first_num" id="first_num" placeholder="앞 6자리 숫자" maxlength="6" oninput="maxLengthCheck(this)">
                             <div class="dash_wrap"><div class="dash"></div></div>
-                            <input type="number" class="last_num" id="last_num" placeholder="뒷 7자리 숫자" maxlength="7" oninput="maxLengthCheck(this)">
+                            <input type="tel" class="last_num" id="last_num" placeholder="뒷 7자리 숫자" maxlength="7" oninput="maxLengthCheck(this)">
                         </div>
                         <p class="input_tag">휴대폰 번호</p>
                         <div class="phone_wrap">
@@ -193,7 +193,7 @@
                                 <option value="lg">LG U+</option>
                                 <option value="kt">KT</option>
                             </select>
-                            <input class="phone_number" type="number" id="phone_number" placeholder="-없이 입력" maxlength="9" oninput="maxLengthCheck(this)">
+                            <input class="phone_number" type="tel" id="phone_number" placeholder="-없이 입력" maxlength="9" oninput="maxLengthCheck(this)">
                             <input type="submit" value="인증요청">
                         </div>
                         
