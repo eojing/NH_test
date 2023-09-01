@@ -5,6 +5,11 @@ body{
     line-height: 1.2;
 }
 
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
 
 .wrap{
     padding: 0 1.8519vw 0 4.4444vw;
