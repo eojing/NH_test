@@ -106,11 +106,13 @@ form div{display: flex;}
 .dash_wrap{margin: 0 2.2222vw; width: 6.6667vw; position: relative;}
 .dash{display: block; height: 0.2778vw;  width: 2.2222vw; background-color: #999; position: absolute; top: 5.5556vw;}
 #first_num, #last_num{width: 42.2222vw;}
-select{    display: block;
+select{    
+    display: block;
     width: 28.3333vw;
     font-size: 4.4444vw;
     border: none;
     border-bottom: 1px solid #e0e0e0;
+    background: none;
     padding: 0;
     padding-bottom: 2.2222vw;
     outline: none;
@@ -125,8 +127,12 @@ select{    display: block;
     display: none;
 }
 
-select:hover{
-    border-bottom: 1px solid #000;
+select::after{
+    width: 4.4444vw;
+    height: 4.4444vw;
+    border: 1px dashed #666;
+    display: block;
+    content: '';
 }
 
 input[type=text]:hover, .last_num:hover, .phone_number:hover, .first_num:hover{
