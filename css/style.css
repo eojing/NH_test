@@ -143,3 +143,13 @@ select option{background: none; color: #333 !important;}
 input[type=text]:hover, .last_num:hover, .phone_number:hover, .first_num:hover{
     border-bottom : 1px solid #000;
 }
+
+input, textarea {
+
+    appearance: none;
+    
+    -webkit-appearance: none;
+    
+    -webkit-border-radius: 0;
+    
+    }
