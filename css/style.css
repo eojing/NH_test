@@ -15,6 +15,9 @@ select {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
+    background: url(../ico/arrow_2x.png) no-repeat !important;
+    background-position: 22.2222vw !important;
+    background-size: 4.4444vw !important;
   }
 
 .wrap{
@@ -146,7 +149,7 @@ select::before{
 
 select option{background: none; color: #333 !important; position: relative;}
 
-select option::after{
+select option::before{
     width: 4.4444vw;
     height: 4.4444vw;
     border: 1px dashed #666;
