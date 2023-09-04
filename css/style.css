@@ -127,13 +127,16 @@ select{
     display: none;
 }
 
-select::after{
+select::before{
     width: 4.4444vw;
     height: 4.4444vw;
     border: 1px dashed #666;
     display: block;
     content: '';
+    position: absolute;
 }
+
+select option{background: none; color: #333;}
 
 input[type=text]:hover, .last_num:hover, .phone_number:hover, .first_num:hover{
     border-bottom : 1px solid #000;
