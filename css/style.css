@@ -1,9 +1,5 @@
 * {-webkit-text-size-adjust:none;}
 
-html,body{
-    -webkit-overflow-scrolling : touch !important;
-    overflow: auto !important;
-}
 
 body{
     font-family: 'Noto Sans KR', sans-serif;
