@@ -223,19 +223,24 @@
             const numWrap = document.querySelector('.num_wrap');
 
             name.addEventListener('click',function(){
-                window.scrollTo(0, name.offsetTop);
+                // window.scrollTo(0, name.offsetTop);
+                name.scrollIntoView();
             })
             first_num.addEventListener('click',function(){
-                window.scrollTo(0, numWrap.offsetTop);
+                // window.scrollTo(0, numWrap.offsetTop);
+                first_num.scrollIntoView();
             })
             last_num.addEventListener('click',function(){
-                window.scrollTo(0, numWrap.offsetTop);
+                // window.scrollTo(0, numWrap.offsetTop);
+                last_num.scrollIntoView()
             })
             phone_number.addEventListener('click',function(){
-                window.scrollTo(0, phoneWrap.offsetTop);
+                // window.scrollTo(0, phoneWrap.offsetTop);
+                phone_number.scrollIntoView()
             })
             phone.addEventListener('click',function(){
-                window.scrollTo(0, phoneWrap.offsetTop);
+                // window.scrollTo(0, phoneWrap.offsetTop);
+                phone.scrollIntoView()
             })
 
             console.log(name.offsetTop);
