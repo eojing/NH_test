@@ -219,21 +219,23 @@
             const last_num = document.querySelector('.last_num');
             const phone_number = document.querySelector('.phone_number');
             const phone = document.querySelector('.phone');
+            const phoneWrap = document.querySelector('.phone_wrap');
+            const numWrap = document.querySelector('.num_wrap');
 
             name.addEventListener('click',function(){
                 window.scrollTo(0, name.offsetTop);
             })
             first_num.addEventListener('click',function(){
-                window.scrollTo(0, first_num.offsetTop);
+                window.scrollTo(0, numWrap.offsetTop);
             })
             last_num.addEventListener('click',function(){
-                window.scrollTo(0, last_num.offsetTop);
+                window.scrollTo(0, numWrap.offsetTop);
             })
             phone_number.addEventListener('click',function(){
-                window.scrollTo(0, phone_number.offsetTop);
+                window.scrollTo(0, phoneWrap.offsetTop);
             })
             phone.addEventListener('click',function(){
-                window.scrollTo(0, phone.offsetTop);
+                window.scrollTo(0, phoneWrap.offsetTop);
             })
         </script>
 </body>
