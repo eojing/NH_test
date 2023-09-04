@@ -121,7 +121,7 @@ select{
     border-bottom: 1px solid #e0e0e0;
     background: none;
     padding: 0;
-    padding-bottom: 2.2222vw;
+    /* padding-bottom: 2.2222vw; */
     outline: none;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
@@ -144,7 +144,18 @@ select::before{
     position: absolute;
 }
 
-select option{background: none; color: #333 !important;}
+select option{background: none; color: #333 !important; position: relative;}
+
+select option::after{
+    width: 4.4444vw;
+    height: 4.4444vw;
+    border: 1px dashed #666;
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 input[type=text]:hover, .last_num:hover, .phone_number:hover, .first_num:hover{
     border-bottom : 1px solid #000;
