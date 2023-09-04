@@ -1,4 +1,5 @@
 * {-webkit-text-size-adjust:none;}
+body, html {scroll-behavior:smooth;}
 body{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
@@ -120,6 +121,7 @@ select{
     font-weight: 400;
     margin-bottom: 7.7778vw;
     margin-right: 2.2222vw;
+    color: #333;
 }
 .phone_number{width: 36.1111vw; margin-right: 2.2222vw;}
 
@@ -136,7 +138,7 @@ select::before{
     position: absolute;
 }
 
-select option{background: none; color: #333;}
+select option{background: none; color: #333 !important;}
 
 input[type=text]:hover, .last_num:hover, .phone_number:hover, .first_num:hover{
     border-bottom : 1px solid #000;
