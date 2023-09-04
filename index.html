@@ -188,7 +188,7 @@
                         <div class="phone_wrap">
                             
                             <select name="" id="" class="phone">
-                                <option selected class="first_option">통신사</option>
+                                <option selected class="first_option" hidden>통신사</option>
                                 <option value="skt">SKT</option>
                                 <option value="lg">LG U+</option>
                                 <option value="kt">KT</option>
@@ -212,9 +212,7 @@
                 }    
             }
 
-            document.querySelector('.phone').addEventListener('click',function(){
-                document.querySelector('.first_option').classList.add('hide');
-            })
+
 
             const name = document.querySelector('.name');
             const first_num = document.querySelector('.first_num');
