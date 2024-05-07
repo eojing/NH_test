@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {-webkit-text-size-adjust:none;}
 
 /* html,body{
@@ -5,8 +12,10 @@
     overflow: auto !important;
 } */
 
+html, body{font-size: 1.85185185vw;}
+
 body{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard-Regular', sans-serif;
     font-weight: 400;
     line-height: 1.2;
 }
@@ -21,7 +30,7 @@ select {
   }
 
 .wrap{
-    padding: 0 1.8519vw 0 4.4444vw;
+    padding: 0 1rem 0 2.6rem;
     background-color: #ededf1;
 }
 
@@ -34,9 +43,9 @@ select {
 
 .tag{
     display: inline-block;
-    max-width: 18.8889vw;
+    max-width: 10.3rem;
     width: 100%;
-    margin-right: 2.7778vw;
+    margin-right: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -50,20 +59,20 @@ select {
 .notice{font-size: 13px;}
 .info{font-size: 12px;}
 .label{font-size: 10px;}
-.font-test{display: flex; margin-bottom: 5.5556vw;}
+.font-test{display: flex; margin-bottom: 2rem;}
 .font-test:last-child{margin-bottom: 0;}
 
 
 
-.flex-font .large{font-size: 7.2222vw; font-weight: 400;}
-.flex-font .point1{font-size: 5.8333vw;}
-.flex-font .point2{font-size: 5.2778vw;}
-.flex-font .headline{font-size: 4.7222vw;}
-.flex-font .title{font-size: 4.4444vw;}
-.flex-font .body{font-size: 3.8889vw;}
-.flex-font .notice{font-size: 3.6111vw;}
-.flex-font .info{font-size: 3.3333vw;}
-.flex-font .label{font-size: 2.7778vw;}
+.flex-font .large{font-size: 4rem; font-weight: 400; line-height: 4.8rem;}
+.flex-font .point1{font-size: 3.2rem; line-height: 4.4rem;}
+.flex-font .point2{font-size: 3rem; line-height: 3.8rem;}
+.flex-font .headline{font-size: 2.6rem; line-height: 3.8rem;}
+.flex-font .title{font-size: 2.4rem; line-height: 3.4rem;}
+.flex-font .body{font-size: 2.1rem; line-height: 3.2rem;}
+.flex-font .notice{font-size: 1.9rem; line-height: 2.6rem;}
+.flex-font .info{font-size: 1.8rem; line-height: 2.4rem;}
+.flex-font .label{font-size: 1.5rem; line-height: 2rem;}
 
 .flex-font .font-test:last-child{margin-bottom: 0;}
 
